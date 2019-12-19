@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Ping Pong Project</title>
+  </head>
+  <body>
+
+    <div class="container">
+           <h1>Ping-Pong</h1>
+     </div>
+    <div class="container">
+          <h2>How to play:</h2>
+            <ul>
+            <li>The game starts counting from 1</li>
+            <li>Every number divisible by 3 will return "ping"</li>
+            <li>Every number divisible by 5 will return "pong"</li>
+            <li>Every number divisible by 15 will return "ping-pong"</li>
+          </ul>
+    <form id="formInput">
+              <div class="form-group">
+                <label for="user-number"><p>Enter a number:</p></label>
+                <br>
+                <input id="user-number" type="number" class="form-control" placeholder="Your Number Here" required>
+              </div>
+               <button type="submit" class="btn btn-default">Play!</button>
+              </form>
+            </div>
+            <div class="col-md-2">
+            </div>
+
+            <div class="row display-title">
+              <div class="col-md-2">
+              </div>
+              <div class="col-md-8">
+                <h2>Here is how your number "ping ponged":</h2>
+              </div>
+              <div class="col-md-2">
+              </div>
+            </div>
+
+            <div class="row" id="split-results">
+            </div>
+</html>
